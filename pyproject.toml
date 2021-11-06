@@ -12,8 +12,11 @@ django-cors-headers = "^3.10.0"
 python-dotenv = "^0.19.1"
 psycopg2-binary = "^2.9.1"
 postgres = "^4.0"
+maykin-django-better-admin-arrayfield = "^1.0.5"
 
 [tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+flake8 = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
