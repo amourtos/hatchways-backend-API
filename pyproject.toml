@@ -9,6 +9,9 @@ python = "^3.9"
 Django = "^3.2.9"
 djangorestframework = "^3.12.4"
 django-cors-headers = "^3.10.0"
+python-dotenv = "^0.19.1"
+psycopg2-binary = "^2.9.1"
+postgres = "^4.0"
 
 [tool.poetry.dev-dependencies]
 
