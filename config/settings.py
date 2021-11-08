@@ -33,8 +33,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_better_admin_arrayfield.apps.DjangoBetterAdminArrayfieldConfig',
-
-    'recipe'
+    'rest_framework',
+    'corsheaders',
+    'recipe',
+    'api'
 ]
 
 MIDDLEWARE = [
@@ -45,6 +47,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'config.urls'
