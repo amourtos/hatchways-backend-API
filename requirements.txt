@@ -7,7 +7,7 @@ django-cors-headers == 3.10.0
 django-on-heroku == 1.1.2  
 djangorestframework == 3.12.4 
 flake8 == 4.0.1 
-maykin-django-better-admin == 1.0.5 
+maykin-django-better-admin-arrayfield == 1.0.5 
 mccabe== 0.6.1 
 postgres== 4.0    
 psycopg2-binary== 2.9.1  
