@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "heroku config:set DISABLE_COLLECTSTATIC=1",
-    "calm-waters-15441.herokuapp.com/"
+    "calm-waters-15441.herokuapp.com"
 ]
 
 
