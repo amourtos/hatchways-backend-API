@@ -27,6 +27,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "127.0.0.1",
     "heroku config:set DISABLE_COLLECTSTATIC=1",
     "https://calm-waters-15441.herokuapp.com/"
 ]
